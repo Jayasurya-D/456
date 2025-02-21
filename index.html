@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1 id="animated-text">Registration Form</h1>
+    <form>
+        <label>Username:</label>
+        <input type="text" placeholder="Username" required>
+        <br><br>
+        <label>Mobile number:</label>
+        <input type="number" placeholder="number" required>
+        <br><br>
+        <label>Email:</label>
+        <input type="email" placeholder="Email id">
+        <br><br>
+        <label>Password:</label>
+        <input type="password" placeholder="Password">
+        <br><br>
+        <label>Age:</label>
+        <input type="number" placeholder="Age">
+        <br><br>
+        <label>Department</label>
+        <select>
+          <option></option>
+          <option>B.Sc</option>
+          <option>B.com</option>
+          <option>BCA</option>
+          <option>BBA</option>
+          <option>Other</option>
+        </select>
+        <br><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male">
+        <label>Male</label>
+        <input type="radio" name="gender" value="Female">
+        <label>Female</label>
+        <br><br>
+        <label>FEWD Certificate:</label>
+        <br>
+        <input type="file">
+        <br><br>
+        <label>Feedback:</label>
+        <br>
+        <textarea></textarea>
+        <br><br>
+        <input type="checkbox">
+        <label>Remember me</label>
+        <br><br>
+        <input type="button" value="Okay">
+        <input type="submit">
+        <input type="reset">
+        <button type="reset">Cancel</button>
+    </form>
+    <script src="src/script.js"></script>
+</body>
+</html>
